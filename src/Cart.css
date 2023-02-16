@@ -1,0 +1,11 @@
+.cartcontainer{
+    display: flex;
+    justify-content: center;
+}
+table, th, td {
+    
+  }
+  table{
+    padding: 20px;
+    width: 60%
+  }

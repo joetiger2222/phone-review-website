@@ -1,0 +1,69 @@
+.productheaddiv{
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    
+    
+}
+.productheaddiv>h1{
+    font-size: 3em;
+   
+}
+
+.allproducts{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+    width: 100%;
+}
+
+@media only screen and (max-width:432px) {
+    .searchBtnHover{
+        margin-top: 20px;
+    }
+   
+    .card{
+        width: 80%;
+    
+    }
+    .phoneImgMain{
+        width: 80%;
+    }
+}
+
+
+input[type=text] {
+    background-color: #f2f2f2;
+    border: none;
+    padding: 12px 15px;
+    font-size: 16px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.2s ease-in-out;
+    width: 300px;
+  }
+  
+  input[type=text]:focus {
+    outline: none;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+  }
+
+  .searchBtnHover{
+    background-color: rgb(51, 51, 196);
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 8px;
+  transition: background-color 0.2s ease-in-out;
+  cursor: pointer;
+  }
+  .searchBtnHover:hover{
+    background-color: rgb(15, 15, 172);
+  }
+  .searchBtnHover:focus{outline: none;
+    box-shadow: 0px 0px 0px 3px rgba(76, 175, 80, 0.4);
+}
