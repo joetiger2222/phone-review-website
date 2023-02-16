@@ -22,7 +22,7 @@ export default function MainPage() {
     setSearchCharsLen(allCaps.length);
   }
 
-   
+     
 
   function renderProducts() {
     if (searchText === "" || searchText === null) {
